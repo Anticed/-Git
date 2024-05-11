@@ -1,8 +1,8 @@
+# Программная реализация распознавания деталей с помощью машинного зрения
 import cvzone
 import cv2
 
 cap = cv2.VideoCapture(1)
-# camera
 myClassifier = cvzone.Classifier('MyModel/keras_model.h5', 'MyModel/labels.txt')
 fpsReader = cvzone.FPS()
 
